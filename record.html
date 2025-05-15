@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шахматная школа Олега Колесова</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="style_chess.css">
+</head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg mb-4">
+              <div class="container-fluid">
+                <h1 class="navbar-brand">Шахматная школа Олега Колесова</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="chess.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Портфолио</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div class="center-form">
+                      <form id="myForm">
+                        <label>
+                            Ваше ФИО:
+                            <input type="text" id="nameField" placeholder="Иванов Иван Иванович" required>
+                        </label>
+                           
+                        <label>
+                            Электронная почта:
+                            <input type="email" id="emailField" placeholder="example@email.com" required>
+                        </label>
+                        <label>
+                            Номер телефона:
+                            <input type="tel" id="telephoneField" placeholder="89876543210" required>
+                        </label>
+                        <label>
+                          Дата и время занятия:
+                          <input type="text" id="datetimePicker" placeholder="Выберите дату и время занятия" required>
+                        </label>
+                        <button type="submit">
+                            Отправить
+                        </button>
+                    </form>
+                    <div id="messageBox">Информация успешно отправлена. <br> Мы свяжемся с Вами в течении суток!</div>
+                    <script src="app.js"></script>
+              </div>
+            </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+body {
+    background: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    background-color:lightskyblue;
+    padding:30px;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+h2 {
+    background-color:lightskyblue;
+    border-radius: 20px;
+}
+
+h3 {
+    background-color:lightskyblue;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+img{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 10px 20px;
+    color:black;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    font-size: 20px;
+}
+
+aside {
+    width: 100%;
+}
+  
+.scrollspy_container {
+    width: 100%;
+    
+}
+  
+.row {
+    padding: 10px;
+    width: 100%;
+}
+  
+.list-group {
+    width: 100%;
+}
+
+.card-footer .btn-primary {
+    padding: 15px;
+    font-size: 14px;
+}
+
+#list-example .list-group-item {
+    cursor: pointer; 
+}
+
+.accordion-button {
+    font-size: 24px;
+}
+
+.accordion-body {
+    font-size: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.social-icons a {
+    padding: 100px;
+    margin-right: 10px;
+    font-size: 24px;
+    color:black;
+}
+
+.social-icons a:hover {
+    color:lightskyblue;
+}
+
+.social-icons i {
+    font-size: 50px;
+    vertical-align:middle;
+}
+
+label, input, textarea, button, select{
+    font-size: 25px;
+    line-height: 1.5
+}
+
+.center-form {
+    display: flex;               /* Включаем Flexbox */
+    justify-content: center;     /* Центрируем по горизонтали */
+    flex-direction: column; /* Элементы располагаются друг под другом */
+    align-items: center;         /* Центрируем по вертикали */
+  }
+
+form {
+    width: 1000px;
+    max-width: 80%;
+    margin: 30px auto;
+    margin-bottom: 20px; /* Небольшой отступ перед сообщением */
+}
+ 
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+input, textarea {
+    padding: 10px;
+    width: 100%;
+}
+ 
+button {
+    display: block;
+    margin: auto;
+    background: rgb(90, 177, 231);
+    color: whitesmoke;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#messageBox {
+    display: none;                   /* Изначально скрытое состояние */
+    font-size: 24px;                 /* Размер шрифта */
+    background-color: lightskyblue;  /* Светлый голубой фон */
+    padding: 15px;                   /* Внутренний отступ */
+    border-radius: 10px;             /* Скругленные углы */
+    margin-top: 20px;                /* Небольшой отступ сверху */
+    text-align: center;              /* Центральное выравнивание текста */
+    width: 100%; /* Сообщение должно иметь такую же ширину, как форма */
+  }
+
+.carousel-item {
+    position: relative; /* Важное дополнение */
+    height: 100%;       /* Заполняем всю высоту родительского контейнера */
+    background-color: #fafafa; /* Дополнительный фон для наглядности */
+  }
+
+.carousel-item img {
+    object-fit: contain; /* Масштабирует изображение с сохранением пропорций и удаляет лишнее */
+    width: 70%;       /* Фотография растянется по всей доступной ширине */
+    height: auto;      /* Полностью займёт отведённую высоту */
+    display: block;    /* Удалит дополнительное пространство между строками */
+    position: absolute; /* Позиция абсолютная */
+    top: 50%;          /* Смещаем изображение сверху на 50% */
+    left: 50%;         /* Смещаем изображение слева на 50% */
+    transform: translate(-50%, -50%); /* Компенсируем смещение */
+  }
+  
+  .carousel-inner {
+    height: 850px;     /* Фиксированная высота карусели, можете поменять на своё значение */
+    position: relative;   /* относительная позиция для дочерних элементов */
+  }
